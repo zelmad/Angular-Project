@@ -26,37 +26,37 @@ export class AppComponent {
       created_at : new Date()
     },
     {
-      title: 'Encore nouveau un post',
+      title: 'Encore nouveau post',
       content: 'Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.',
       loveIts: 4,
       created_at : new Date()
     },
     {
-      title: 'Encore nouveau un post',
+      title: 'Encore nouveau post',
       content: 'Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.',
       loveIts: 4,
       created_at : new Date()
     },
     {
-      title: 'Encore nouveau un post',
+      title: 'Encore nouveau post',
       content: 'Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.',
       loveIts: 4,
       created_at : new Date()
     },
     {
-      title: 'Encore nouveau un post',
+      title: 'Encore nouveau post',
       content: 'Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.',
       loveIts: 4,
       created_at : new Date()
     },
     {
-      title: 'Encore nouveau un post',
+      title: 'Encore nouveau post',
       content: 'Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.',
       loveIts: 4,
       created_at : new Date()
     },
     {
-      title: 'Encore nouveau un post',
+      title: 'Encore nouveau post',
       content: 'Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.',
       loveIts: 4,
       created_at : new Date()
