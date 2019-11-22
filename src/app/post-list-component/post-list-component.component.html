@@ -1,0 +1,19 @@
+<li [ngClass]="{'list-group-item': true,
+                'list-group-item-success': loveIt > 0,
+                'list-group-item-danger': loveIt < 0,
+                'list-group-item-text' : loveIt === 0}">
+    <div class="col-12 col-md-8">
+      <h2>{{postTiltle}}</h2>
+    </div>
+    <div class="col-6 col-md-4">
+      <p class="text-right" [ngStyle]="{color : dateColor()}"> {{ postCreatedAt | date: 'short' | uppercase}} </p>
+    </div>
+  <div>
+    <div  class="col">{{postContent}}</div><br>
+    <div class="col">
+      <button type="button" class="btn btn-success btn-sm" [disabled] = "isAuth" (click)="onLoveIT()">Love it !</button>
+      &nbsp;
+      <button type="button" class="btn btn-danger btn-sm" [disabled] = "isAuth" (click)="onDontLoveIT()">Don't love it !</button>
+    </div>
+  </div>
+</li>
